@@ -8,7 +8,7 @@ public:
 
         int mid = low + (high - low)/2;
 
-        int ans = -1;
+        int ans = -1; 
 
         while(low<=high){
             
