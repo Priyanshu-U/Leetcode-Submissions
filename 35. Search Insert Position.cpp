@@ -9,7 +9,7 @@ public:
 
         while(low <= high){
             if(target == nums[mid]){
-                return mid;
+                return mid; 
             }
 
             else if (target > nums[mid]){
