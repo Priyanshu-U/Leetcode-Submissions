@@ -9,7 +9,7 @@ public:
             }
         }
         return ans;
-    }
+    } 
 
     int findVal(int target, vector<int>& list){
         int l = 0;
