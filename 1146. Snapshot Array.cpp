@@ -4,8 +4,10 @@ public:
     vector<map<int, int>> array_mem;
 
     SnapshotArray(int length) {
+        
         snap_id = 0;
         array_mem.resize(length);
+        
         for (int i = 0; i < length; ++i) {
             array_mem[i][0] = 0;
         }
