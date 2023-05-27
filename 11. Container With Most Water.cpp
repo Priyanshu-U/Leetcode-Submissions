@@ -15,9 +15,11 @@ private:
     }
 public:
     int maxArea(vector<int>& height) {
+        
         int s=0;
         int l=height.size()-1;
         int ans=-1;
+        
         while(l>s){
             if(volume(s,height[s],l,height[l])>ans){
                 ans=volume(s,height[s],l,height[l]);
