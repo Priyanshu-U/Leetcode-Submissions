@@ -13,7 +13,7 @@ public:
     }
 };
 */
-
+# Method 1 - Using Hashmap 
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
